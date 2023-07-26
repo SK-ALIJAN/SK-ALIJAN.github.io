@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.20f29ef3.css",
+    "main.js": "/my-portfolio/static/js/main.3bb0d1ae.js",
+    "static/media/Id.png": "/my-portfolio/static/media/Id.b99efecef59f3879e7ad.png",
+    "static/media/pic.png": "/my-portfolio/static/media/pic.07f561488498e4d26ca9.png",
+    "static/media/My_resume.pdf": "/my-portfolio/static/media/My_resume.8047c7e3c1d77252f1eb.pdf",
+    "static/media/about.png": "/my-portfolio/static/media/about.3209b4ecc528eb24eae8.png",
+    "static/media/bajkul.png": "/my-portfolio/static/media/bajkul.a4e74373dae901dcee65.png",
+    "static/media/logo.jpg": "/my-portfolio/static/media/logo.cf8c9d2486587d0f89f7.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.20f29ef3.css.map": "/my-portfolio/static/css/main.20f29ef3.css.map",
+    "main.3bb0d1ae.js.map": "/my-portfolio/static/js/main.3bb0d1ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20f29ef3.css",
+    "static/js/main.3bb0d1ae.js"
+  ]
+}
