@@ -4,7 +4,6 @@ import "aos/dist/aos.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { AiFillGithub, AiOutlineGlobal } from "react-icons/ai";
-import Logo from "./logo.jpg";
 
 let data = [
   {
@@ -21,7 +20,7 @@ let data = [
       "https://user-images.githubusercontent.com/106768235/252967555-a4f88720-c74b-4f01-9b7e-075d0bdd765f.png",
       "https://user-images.githubusercontent.com/106768235/252969534-5f0e7468-f651-4afd-ab3b-626946067e8f.png",
     ],
-    demo: "https://mytrip-app.netlify.app/",
+    demo: "https://my-trip-wine.vercel.app/",
     github: "https://github.com/SK-ALIJAN/Mytrip",
   },
   {
@@ -181,57 +180,6 @@ const Projects = () => {
           );
         })}
       </div>
-
-      {/* <div id="education">
-        <div
-          className="headers"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
-          <header>My</header>
-          <p>Education</p>
-          <div id="eductionDetails">
-            <img src={Logo} alt="Masai Logo" />
-            <div id="insideEductionDetails">
-              <div className="education-details">
-                <div>
-                  {" "}
-                  <h3>Masai School</h3>
-                  <p>Full Stack Web Development</p>
-                </div>
-
-                <p>October 2022-Present</p>
-              </div>
-              <div className="tech-stacks">
-                <h4>Tech Stacks</h4>
-                <p>
-                  <span>Frontend:</span> HTML, CSS, JavaScript, React JS, Chakra
-                  UI, TypeScript, Redux
-                </p>
-                <p>
-                  <span> Backend:</span> Node.js, MongoDB, Data Structures and
-                  Algorithms, Express, Next.js
-                </p>
-              </div>
-              <div className="achievements">
-                <h4>Achievements</h4>
-                <ul>
-                  <li>1000+ hours of practical coding</li>
-                  <li>300+ hours of DSA</li>
-                  <li>100+ hours of skill development</li>
-                  <li>800+ GIT commits</li>
-                  <li>10+ major projects</li>
-                  <li>80+ mini projects</li>
-                </ul>
-                <a href="https://www.masaischool.com/" id="Visit_Site">
-                  Visit Site
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
