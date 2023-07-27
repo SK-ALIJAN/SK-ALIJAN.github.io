@@ -436,7 +436,7 @@ body::-webkit-scrollbar {
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 5;
+  z-index: 6;
   background-color: rgba(0, 0, 0, 0.856);
 }
 #collageId img {
@@ -447,13 +447,12 @@ body::-webkit-scrollbar {
 #Crosshere {
   position: relative;
   bottom: 9rem;
-  left: -20rem;
+  left: -22rem;
   font-size: 2rem;
   font-weight: 600;
   cursor: pointer;
   transition: all ease-in-out 0.4s;
 }
-
 
 #insideEductionDetails .education-details {
   display: flex;
@@ -582,7 +581,7 @@ form textarea::placeholder {
   width: max-content;
   justify-content: space-between;
   align-items: center;
-  background-color: #fc6d6d;
+  background-color: teal;
   color: white;
   padding: 15px;
   border-radius: 6px;
@@ -726,6 +725,14 @@ form textarea::placeholder {
   .BajkulData {
     width: 90%;
   }
+  #collageId img {
+    position: relative;
+    left: 5rem;
+  }
+  #Crosshere {
+    left: -8rem;
+  }
+
   /* ........ Contact section ........*/
 
   #Contact {
@@ -850,8 +857,8 @@ form textarea::placeholder {
   .tech-stacks h4 {
     margin-bottom: 3px;
   }
-  #collageId{
-  height: 100vh;
+  #collageId {
+    height: 100vh;
   }
 
   #collageId img {

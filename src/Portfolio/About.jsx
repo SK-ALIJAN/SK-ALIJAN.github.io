@@ -3,7 +3,7 @@ import img from "./about.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { AiFillPhone, AiOutlineMail } from "react-icons/ai";
-import PDF from "./My_resume.pdf";
+import PDF from "./Sk_Alijan_Resume.pdf";
 
 const About = () => {
   useEffect(() => {
@@ -33,7 +33,7 @@ const About = () => {
         <div data-aos="fade-up" data-aos-duration="1500">
           <p className="aboutText">
             Hi there! I'm Sk Alijan, and I love making stuff that exists on the
-            internet. I'm a devoted coder with excellent organizational &
+            internet. I'm a devoted coder with  expertise in the MERN stack and  excellent organizational &
             communication abilities, a keen eye for details, and the skill to
             write effective code. Moreover, I'm adaptable and quick to learn,
             making it easy for me to take on new challenges and embrace
@@ -61,8 +61,16 @@ const About = () => {
             <p>connect2skalijan@gmail.com</p>
           </div>
           <div className="aboutText">
-            <a href={PDF} download className="resumes">
-              Download Resume
+            <a
+              href={PDF}
+              download
+              className="resumes"
+              onClick={() => {
+                window.location.href =
+                  "https://drive.google.com/file/d/19h3vZHBl1SI3pwTEGEoVP1VADG1hr8kH/view?usp=sharing";
+              }}
+            >
+              My Resume
             </a>
             <a
               href="#Contact"

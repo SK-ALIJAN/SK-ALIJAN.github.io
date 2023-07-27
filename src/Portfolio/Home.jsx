@@ -8,6 +8,7 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
+import PDF from "./Sk_Alijan_Resume.pdf";
 
 const Home = () => {
   useEffect(() => {
@@ -45,8 +46,13 @@ const Home = () => {
           </div>
         </div>
         <a
-          href="https://drive.google.com/file/d/14sqbXO7CcpQK1m_38A3mLCWg3DcAxNyB/view?usp=drive_link"
+          href={PDF}
           className="resumes"
+          download
+          onClick={() => {
+            window.location.href =
+              "https://drive.google.com/file/d/19h3vZHBl1SI3pwTEGEoVP1VADG1hr8kH/view?usp=sharing";
+          }}
         >
           See My Resume
         </a>
