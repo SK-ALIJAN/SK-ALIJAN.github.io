@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.97c45d89.css",
-    "main.js": "/my-portfolio/static/js/main.d84f2af5.js",
+    "main.css": "/my-portfolio/static/css/main.578ee7ef.css",
+    "main.js": "/my-portfolio/static/js/main.b8a014c8.js",
     "static/media/Id.png": "/my-portfolio/static/media/Id.b99efecef59f3879e7ad.png",
+    "static/media/Sk_Alijan_Resume.pdf": "/my-portfolio/static/media/Sk_Alijan_Resume.47dde774ea19af5dbc7e.pdf",
     "static/media/pic.png": "/my-portfolio/static/media/pic.07f561488498e4d26ca9.png",
-    "static/media/My_resume.pdf": "/my-portfolio/static/media/My_resume.8047c7e3c1d77252f1eb.pdf",
     "static/media/about.png": "/my-portfolio/static/media/about.3209b4ecc528eb24eae8.png",
     "static/media/bajkul.png": "/my-portfolio/static/media/bajkul.a4e74373dae901dcee65.png",
     "static/media/logo.jpg": "/my-portfolio/static/media/logo.cf8c9d2486587d0f89f7.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.97c45d89.css.map": "/my-portfolio/static/css/main.97c45d89.css.map",
-    "main.d84f2af5.js.map": "/my-portfolio/static/js/main.d84f2af5.js.map"
+    "main.578ee7ef.css.map": "/my-portfolio/static/css/main.578ee7ef.css.map",
+    "main.b8a014c8.js.map": "/my-portfolio/static/js/main.b8a014c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.97c45d89.css",
-    "static/js/main.d84f2af5.js"
+    "static/css/main.578ee7ef.css",
+    "static/js/main.b8a014c8.js"
   ]
 }
