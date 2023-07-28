@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.578ee7ef.css",
-    "main.js": "/static/js/main.14058a33.js",
-    "static/media/Id.png": "/static/media/Id.b99efecef59f3879e7ad.png",
-    "static/media/Sk_Alijan_Resume.pdf": "/static/media/Sk_Alijan_Resume.47dde774ea19af5dbc7e.pdf",
-    "static/media/pic.png": "/static/media/pic.07f561488498e4d26ca9.png",
-    "static/media/about.png": "/static/media/about.3209b4ecc528eb24eae8.png",
-    "static/media/bajkul.png": "/static/media/bajkul.a4e74373dae901dcee65.png",
-    "static/media/logo.jpg": "/static/media/logo.cf8c9d2486587d0f89f7.jpg",
-    "index.html": "/index.html",
-    "main.578ee7ef.css.map": "/static/css/main.578ee7ef.css.map",
-    "main.14058a33.js.map": "/static/js/main.14058a33.js.map"
+    "main.css": "/SK-ALIJAN/SK-ALIJAN.github.io/static/css/main.578ee7ef.css",
+    "main.js": "/SK-ALIJAN/SK-ALIJAN.github.io/static/js/main.904a464b.js",
+    "static/media/Id.png": "/SK-ALIJAN/SK-ALIJAN.github.io/static/media/Id.b99efecef59f3879e7ad.png",
+    "static/media/Sk_Alijan_Resume.pdf": "/SK-ALIJAN/SK-ALIJAN.github.io/static/media/Sk_Alijan_Resume.47dde774ea19af5dbc7e.pdf",
+    "static/media/pic.png": "/SK-ALIJAN/SK-ALIJAN.github.io/static/media/pic.07f561488498e4d26ca9.png",
+    "static/media/about.png": "/SK-ALIJAN/SK-ALIJAN.github.io/static/media/about.3209b4ecc528eb24eae8.png",
+    "static/media/bajkul.png": "/SK-ALIJAN/SK-ALIJAN.github.io/static/media/bajkul.a4e74373dae901dcee65.png",
+    "static/media/logo.jpg": "/SK-ALIJAN/SK-ALIJAN.github.io/static/media/logo.cf8c9d2486587d0f89f7.jpg",
+    "index.html": "/SK-ALIJAN/SK-ALIJAN.github.io/index.html",
+    "main.578ee7ef.css.map": "/SK-ALIJAN/SK-ALIJAN.github.io/static/css/main.578ee7ef.css.map",
+    "main.904a464b.js.map": "/SK-ALIJAN/SK-ALIJAN.github.io/static/js/main.904a464b.js.map"
   },
   "entrypoints": [
     "static/css/main.578ee7ef.css",
-    "static/js/main.14058a33.js"
+    "static/js/main.904a464b.js"
   ]
 }
