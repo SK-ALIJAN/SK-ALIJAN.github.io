@@ -110,7 +110,7 @@ const Skills = () => {
   };
   console.log(details);
   return (
-    <div id="Skills">
+    <div id="skills">
       <div
         className="headers"
         data-aos="fade-right"

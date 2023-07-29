@@ -8,19 +8,19 @@ const Navbar = () => {
   let [actice, setActive] = useState("Home");
 
   return (
-    <div id="Navbar">
+    <div id="nav-menu">
       <a
-        href="#Home"
+        href="#home"
         onClick={() => {
           setActive("Home");
         }}
         className={actice === "Home" ? "active" : ""}
       >
-        <AiOutlineHome className="Icon" />
+        <AiOutlineHome className="Icon .nav-link.home" />
       </a>
 
       <a
-        href="#About"
+        href="#about"
         onClick={() => {
           setActive("About");
         }}
@@ -30,7 +30,7 @@ const Navbar = () => {
       </a>
 
       <a
-        href="#Skills"
+        href="#skills"
         onClick={() => {
           setActive("Skills");
         }}
@@ -40,7 +40,7 @@ const Navbar = () => {
       </a>
 
       <a
-        href="#Projects"
+        href="#projects"
         onClick={() => {
           setActive("Projects");
         }}
@@ -50,7 +50,7 @@ const Navbar = () => {
       </a>
 
       <a
-        href="#Contact"
+        href="#contact"
         onClick={() => {
           setActive("Contact");
         }}

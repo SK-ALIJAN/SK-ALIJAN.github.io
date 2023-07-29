@@ -33,7 +33,7 @@ const Contact = () => {
     }, 3000);
   };
   return (
-    <div id="Contact">
+    <div id="contact">
       <div
         data-aos="fade-right"
         data-aos-offset="300"

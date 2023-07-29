@@ -18,12 +18,9 @@ p {
   font-size: 1rem;
 }
 
-body::-webkit-scrollbar {
-  /* background-color: transparent; */
-}
 /*............ Navbar section here................... */
 
-#Navbar {
+#nav-menu {
   position: fixed;
   z-index: 3;
   bottom: 2rem;
@@ -41,7 +38,7 @@ body::-webkit-scrollbar {
   -webkit-backdrop-filter: blur(5.4px);
   padding: 10px 20px;
 }
-#Navbar a {
+#nav-menu a {
   padding: 13px;
   cursor: pointer;
   color: black;
@@ -49,19 +46,19 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
 }
-#Navbar .active {
+#nav-menu .active {
   color: white;
   background-color: rgba(0, 0, 0, 0.542);
   border-radius: 100%;
 }
-#Navbar a:hover {
+#nav-menu a:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.542);
   border-radius: 100%;
 }
 
 /*................... Home section here................... */
-#Home {
+#home {
   display: flex;
   height: 100vh;
   justify-content: space-between;
@@ -73,12 +70,12 @@ body::-webkit-scrollbar {
   letter-spacing: 2px;
   margin-bottom: 20px;
 }
-#Name {
+#user-detail-name {
   font-size: 70px;
   font-weight: 600;
   letter-spacing: 2px;
 }
-#Home > div:nth-child(1) {
+#home > div:nth-child(1) {
   position: relative;
   top: 10%;
   left: 5%;
@@ -202,13 +199,13 @@ body::-webkit-scrollbar {
 
 /* .....................about section here .....................*/
 
-#About {
+#about {
   height: 100vh;
   padding: 20px;
   position: relative;
   bottom: 3rem;
 }
-#About > .headers {
+#about > .headers {
   margin: auto;
   width: max-content;
 }
@@ -254,7 +251,7 @@ body::-webkit-scrollbar {
 }
 
 /* .....................Skills section here................... */
-#Skills {
+#skills {
   height: max-content;
   padding: 20px;
 }
@@ -307,7 +304,7 @@ body::-webkit-scrollbar {
 
 /*...................... Project section here.................. */
 
-#Projects {
+#projects {
   height: max-content;
   margin-top: 3rem;
   margin-bottom: 30px;
@@ -317,7 +314,7 @@ body::-webkit-scrollbar {
   background-color: #fc6d6d !important;
 }
 
-#Projects #ProjectShowCase {
+#projects #ProjectShowCase {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -493,11 +490,11 @@ body::-webkit-scrollbar {
 }
 
 /* ....................Contact section here ..................*/
-#Contact {
+#contact {
   height: 100vh;
   padding: 20px;
 }
-#Contact #Contact-Details {
+#contact #Contact-Details {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
@@ -609,7 +606,7 @@ form textarea::placeholder {
 /*.................. for responsive .................. */
 
 @media screen and (max-width: 1315px) {
-  #Home {
+  #home {
     flex-direction: column-reverse;
     justify-content: flex-end;
   }
@@ -620,10 +617,10 @@ form textarea::placeholder {
     font-size: 40px;
     margin-bottom: 5px;
   }
-  #Name {
+  #user-detail-name {
     font-size: 50px;
   }
-  #Home > div:nth-child(1) {
+  #home > div:nth-child(1) {
     top: 0;
   }
   .typeAnimation {
@@ -651,7 +648,7 @@ form textarea::placeholder {
 
   /* ........ about section ........*/
 
-  #About {
+  #about {
     bottom: 0;
     height: max-content;
     margin-bottom: 80px;
@@ -667,7 +664,7 @@ form textarea::placeholder {
 
   /* ........ Skills section ........*/
 
-  #Skills {
+  #skills {
     height: max-content;
     padding: 0;
   }
@@ -690,12 +687,12 @@ form textarea::placeholder {
 
   /* ........ Projects section ........*/
 
-  #Projects {
+  #projects {
     height: max-content;
     margin-bottom: 0px;
     padding: 0;
   }
-  #Projects #ProjectShowCase {
+  #projects #ProjectShowCase {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 !important;
   }
@@ -735,10 +732,10 @@ form textarea::placeholder {
 
   /* ........ Contact section ........*/
 
-  #Contact {
+  #contact {
     height: 100vh;
   }
-  #Contact #Contact-Details {
+  #contact #Contact-Details {
     flex-direction: column;
   }
   #Contact-Details > #details-section,
@@ -756,18 +753,18 @@ form textarea::placeholder {
 /* ..............mobile size screen................. */
 
 @media screen and (max-width: 600px) {
-  #Home {
+  #home {
     height: 80vh;
   }
   .hello {
     font-size: 1.5rem;
   }
-  #Home > div:nth-child(1) {
+  #home > div:nth-child(1) {
     width: max-content;
     top: 0%;
     left: 0%;
   }
-  #Name {
+  #user-detail-name {
     font-size: 2.1rem;
     position: relative;
     top: 10px;
@@ -788,7 +785,7 @@ form textarea::placeholder {
   }
 
   /* ........ About section ........*/
-  #About {
+  #about {
     padding: 10px;
   }
   #myDetails img {
@@ -799,7 +796,7 @@ form textarea::placeholder {
   }
 
   /* ........ Skills section ........*/
-  #Skills {
+  #skills {
     padding: 0;
   }
   .spacehere {
@@ -824,7 +821,7 @@ form textarea::placeholder {
 
   /* ........ Project section ........*/
 
-  #Projects #ProjectShowCase {
+  #projects #ProjectShowCase {
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -873,11 +870,11 @@ form textarea::placeholder {
   }
 
   /* ........ Contact section ........*/
-  #Contact {
+  #contact {
     padding: 0;
     margin-top: 20px;
   }
-  #Contact #Contact-Details {
+  #contact #Contact-Details {
     background-color: #d8e3e7;
     padding: 0;
     color: black;

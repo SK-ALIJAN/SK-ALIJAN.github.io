@@ -17,18 +17,18 @@ const Home = () => {
 
   return (
     <div
-      id="Home"
+      id="home"
       data-aos="fade-right"
       data-aos-offset="300"
       data-aos-easing="ease-in-sine"
     >
       <div id="first-child">
         <p className="hello">Hello, my name is </p>
-        <p id="Name">Sk Alijan</p>
+        <p id="user-detail-name">Sk Alijan</p>
         <div className="typeAnimation">
           <div class="wrapper">
             <div class="static-txt">I'm a</div>
-            <ul class="dynamic-txts">
+            <ul class="dynamic-txts" id="user-detail-intro">
               <li>
                 <span>Full Stack Web Developer.</span>
               </li>
@@ -53,6 +53,7 @@ const Home = () => {
             window.location.href =
               "https://drive.google.com/file/d/19h3vZHBl1SI3pwTEGEoVP1VADG1hr8kH/view?usp=sharing";
           }}
+          id="resume-button-1"
         >
           See My Resume
         </a>
@@ -60,7 +61,7 @@ const Home = () => {
           <a href="https://www.linkedin.com/in/alijan786/">
             <AiFillLinkedin />
           </a>
-          <a href="https://github.com/SK-ALIJAN">
+          <a href="https://github.com/SK-ALIJAN" id="contact-github">
             <AiFillGithub />
           </a>
           <a href="mailto:connect2skalijan@gmail.com.com">
@@ -72,7 +73,7 @@ const Home = () => {
         </div>
       </div>
       <div id="mypic" data-aos="zoom-in">
-        <img src={img} alt="My pic" />
+        <img src={img} alt="My pic" className="home-img"/>
       </div>
     </div>
   );

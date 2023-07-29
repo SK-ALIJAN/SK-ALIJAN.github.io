@@ -96,7 +96,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="Projects">
+    <div id="projects">
       <div
         className="headers"
         data-aos="fade-right"
@@ -146,7 +146,7 @@ const Projects = () => {
             <div
               key={ele.name}
               data-aos-anchor-placement="center-bottom"
-              className="AllProjects"
+              className="AllProjects project-card"
               data-aos="fade-up"
             >
               <Carousel
