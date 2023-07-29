@@ -159,7 +159,7 @@ const Skills = () => {
       <div className="Display">
         {details.map((ele) => {
           return (
-            <div key={ele.name} data-aos="fade-right" className="allSkills">
+            <div key={ele.name} data-aos="fade-right" className="allSkills skills-card">
               <img src={ele.img} alt={ele.name} />
               <p>{ele.name}</p>
             </div>

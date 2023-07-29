@@ -31,7 +31,7 @@ const About = () => {
         />
 
         <div data-aos="fade-up" data-aos-duration="1500" className="about">
-          <p className="aboutText section">
+          <p className="aboutText section" id="user-detail-intro">
             Hi there! I'm Sk Alijan, and I love making stuff that exists on the
             internet. I'm a devoted coder with expertise in the MERN stack and
             excellent organizational & communication abilities, a keen eye for

@@ -16,7 +16,7 @@ const Navbar = () => {
         }}
         className={actice === "Home" ? "active" : ""}
       >
-        <AiOutlineHome className="Icon .nav-link.home" />
+        <AiOutlineHome className="Icon nav-link.home" />
       </a>
 
       <a
@@ -26,7 +26,7 @@ const Navbar = () => {
         }}
         className={actice === "About" ? "active" : ""}
       >
-        <AiOutlineUser className="Icon" />
+        <AiOutlineUser className="Icon nav-link.about" />
       </a>
 
       <a
@@ -36,7 +36,7 @@ const Navbar = () => {
         }}
         className={actice === "Skills" ? "active" : ""}
       >
-        <FaLaptopCode className="Icon" />
+        <FaLaptopCode className="Icon nav-link.skills" />
       </a>
 
       <a
@@ -46,7 +46,7 @@ const Navbar = () => {
         }}
         className={actice === "Projects" ? "active" : ""}
       >
-        <FaHeartPulse className="Icon" />
+        <FaHeartPulse className="Icon nav-link.projects" />
       </a>
 
       <a
@@ -56,7 +56,7 @@ const Navbar = () => {
         }}
         className={actice === "Contact" ? "active" : ""}
       >
-        <MdEmail className="Icon" />
+        <MdEmail className="Icon nav-link.contact" />
       </a>
     </div>
   );

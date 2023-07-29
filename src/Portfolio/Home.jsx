@@ -28,7 +28,7 @@ const Home = () => {
         <div className="typeAnimation">
           <div class="wrapper">
             <div class="static-txt">I'm a</div>
-            <ul class="dynamic-txts" id="user-detail-intro">
+            <ul class="dynamic-txts">
               <li>
                 <span>Full Stack Web Developer.</span>
               </li>
@@ -58,7 +58,7 @@ const Home = () => {
           See My Resume
         </a>
         <div className="allIcons">
-          <a href="https://www.linkedin.com/in/alijan786/">
+          <a href="https://www.linkedin.com/in/alijan786/" id="contact-linkedin">
             <AiFillLinkedin />
           </a>
           <a href="https://github.com/SK-ALIJAN" id="contact-github">

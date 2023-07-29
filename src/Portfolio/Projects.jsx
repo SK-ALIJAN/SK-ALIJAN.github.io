@@ -140,7 +140,7 @@ const Projects = () => {
           HTML
         </button>
       </div>
-      <div id="ProjectShowCase">
+      <div id="ProjectShowCase" className="project-title">
         {details.map((ele) => {
           return (
             <div
