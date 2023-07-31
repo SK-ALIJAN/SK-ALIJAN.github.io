@@ -1135,16 +1135,21 @@ form textarea::placeholder {
 
 @media screen and (max-width: 390px) {
   .aboutText {
-    font-size: 14px !important;
-    padding-left: 45px !important;
+    font-size: 12px !important;
+    padding-left: 30px !important;
   }
-  #ProjectShowCase,#ProjectShowCase .AllProjects{
-  width: 100%;
+
+  #ProjectShowCase,
+  #ProjectShowCase .AllProjects {
+    width: 100%;
   }
-  .education-details{
-  font-size: 10px;
+
+  .education-details {
+    font-size: 10px;
   }
-  .bajkul_btn a,.bajkul_btn button{
-  font-size: 10px;
+
+  .bajkul_btn a,
+  .bajkul_btn button {
+    font-size: 10px;
   }
 }
