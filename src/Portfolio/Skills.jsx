@@ -79,7 +79,7 @@ let data = [
     cate: "tools",
   },
   {
-    name: "CodeSandbox",
+    name: `Code Sandbox`,
     img: "https://cdn3.iconfinder.com/data/icons/feather-5/24/codesandbox-64.png",
     cate: "tools",
   },

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import img from "./about.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -74,12 +74,13 @@ const About = () => {
             >
               My Resume
             </a>
+
             <a
-              href="#Contact"
-              className="resumes"
+              href="#contact"
+              className="resumes resumesButton"
               style={{ marginLeft: "10px" }}
             >
-              Hire Me
+              Hire me
             </a>
           </div>
         </div>

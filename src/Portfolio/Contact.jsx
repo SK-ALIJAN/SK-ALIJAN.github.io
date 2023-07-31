@@ -81,7 +81,7 @@ const Contact = () => {
             <a href="https://github.com/SK-ALIJAN">
               <AiFillGithub />
             </a>
-            <a href="mailto:connect2skalijan@gmail.com.com">
+            <a href="mailto:connect2skalijan@gmail.com">
               <HiMail />
             </a>
           </div>

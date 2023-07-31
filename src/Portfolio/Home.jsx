@@ -58,7 +58,10 @@ const Home = () => {
           See My Resume
         </a>
         <div className="allIcons">
-          <a href="https://www.linkedin.com/in/alijan786/" id="contact-linkedin">
+          <a
+            href="https://www.linkedin.com/in/alijan786/"
+            id="contact-linkedin"
+          >
             <AiFillLinkedin />
           </a>
           <a href="https://github.com/SK-ALIJAN" id="contact-github">
@@ -73,7 +76,7 @@ const Home = () => {
         </div>
       </div>
       <div id="mypic" data-aos="zoom-in">
-        <img src={img} alt="My pic" className="home-img"/>
+        <img src={img} alt="My pic" className="home-img" />
       </div>
     </div>
   );
