@@ -67,7 +67,7 @@ const Home = () => {
           <a href="https://github.com/SK-ALIJAN" id="contact-github">
             <AiFillGithub />
           </a>
-          <a href="mailto:connect2skalijan@gmail.com.com">
+          <a href="mailto:connect2skalijan@gmail.com">
             <HiMail />
           </a>
           <a href="https://api.whatsapp.com/send?phone=918695453740">

@@ -287,7 +287,7 @@ p {
   letter-spacing: 3px;
   color: white;
   background: teal;
-  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  /* box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64); */
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -953,7 +953,7 @@ form textarea::placeholder {
 
 @media screen and (max-width: 600px) {
   #home {
-    height: 80vh;
+    height: 95vh;
   }
 
   .hello {
@@ -1134,9 +1134,16 @@ form textarea::placeholder {
 }
 
 @media screen and (max-width: 390px) {
+  #about{
+  width: 80%;
+  }
   .aboutText {
     font-size: 12px !important;
     padding-left: 30px !important;
+  }
+
+  #skills{
+  height: 100vh !important;
   }
 
   #ProjectShowCase,

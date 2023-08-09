@@ -91,7 +91,6 @@ const Contact = () => {
           <p className="Contact-title">Reach out to connect</p>
           <form action="" onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" required />
-            {/* <input type="number" placeholder="Phone" /> */}
             <input type="email" placeholder="Email*" required />
             <textarea
               placeholder="Your Message"
