@@ -814,7 +814,6 @@ form textarea::placeholder {
     bottom: 0;
     height: max-content;
     margin-bottom: 80px;
-    height: max-content;
   }
 
   #myDetails {
@@ -1134,16 +1133,9 @@ form textarea::placeholder {
 }
 
 @media screen and (max-width: 390px) {
-  #about{
-  width: 80%;
-  }
-  .aboutText {
-    font-size: 12px !important;
-    padding-left: 30px !important;
-  }
-
-  #skills{
-  height: 100vh !important;
+  .aboutText{
+    font-size: 10px !important;
+    text-align: justify !important;
   }
 
   #ProjectShowCase,
