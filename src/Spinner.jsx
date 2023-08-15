@@ -37,7 +37,7 @@ const Spinners = () => {
         data-aos="fade-right"
         data-aos-duration="1500"
       >
-        Welcome to my portfolio &#x2764;
+        Welcome to my portfolio
       </p>
     </div>
   );

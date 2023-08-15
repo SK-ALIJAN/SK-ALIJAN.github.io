@@ -32,20 +32,18 @@ const About = () => {
 
         <div data-aos="fade-up" data-aos-duration="1500" className="about">
           <p className="aboutText section" id="user-detail-intro">
-            Hi there! I'm Sk Alijan, and I love making stuff that exists on the
-            internet. I'm a devoted coder with expertise in the MERN stack and
-            excellent organizational & communication abilities, a keen eye for
-            details, and the skill to write effective code. Moreover, I'm
-            adaptable and quick to learn, making it easy for me to take on new
-            challenges and embrace different technologies. As a newcomer to this
-            professional field, I am filled with enthusiasm and eager to make a
-            positive impact.
+            Hi there! I'm Sk Alijan, An enthusiastic Full Stack Developer with a
+            passion for crafting innovative projects.I possess a diverse skill
+            set encompassing a wide range of technologies and tools, enabling me
+            to meticulously construct top-notch products.
           </p>
           <p className="aboutText">
-            I possess a clear, rational mindset with a hands-on approach to
-            solving problems and a determination to finish tasks. Additionally,
-            I thrive in collaborative environments and enjoy brainstorming
-            creative solutions with my team.
+            i am passionate about developing user-friendly web applications using
+            MERN Stack. I enjoy developing websites and a keen interest in
+            solving problems and coming up with effective solutions. Eager to be
+            a part of a team which gives me ability to learn and grow. I possess
+            a clear, rational mindset with a hands-on approach to solving
+            problems and a determination to finish tasks.
           </p>
 
           <div className="ContactMe aboutText">

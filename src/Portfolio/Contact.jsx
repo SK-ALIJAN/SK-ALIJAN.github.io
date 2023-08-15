@@ -126,6 +126,8 @@ const Contact = () => {
         <span style={{ color: "teal", margin: "5px" }}>Sk Alijan </span>| ©
         Copyright 2023 . All rights reserved
       </p>
+
+      
     </div>
   );
 };

@@ -628,6 +628,7 @@ button:focus::after {
 #contact {
   height: 100vh;
   padding: 20px;
+  position: relative;
 }
 
 #contact #Contact-Details {
@@ -749,11 +750,6 @@ form textarea::placeholder {
   font-weight: 900;
 }
 
-#hearts {
-  color: red;
-  font-size: 18px;
-  margin: 10px;
-}
 
 /*.................. for responsive .................. */
 
