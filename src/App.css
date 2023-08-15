@@ -499,6 +499,31 @@ button:focus::after {
   color: white;
 }
 
+/* ................Github Stats section here .....................*/
+#github {
+  height: max-content;
+  margin-top: 50px;
+}
+
+#github-streak-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#statsCard{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+#statsCard>div img{
+width: 100%;
+}
+#github-top-langs{
+margin-right: 20px;
+}
+
+
 /* ................education section here .....................*/
 
 #education {
@@ -884,6 +909,9 @@ form textarea::placeholder {
     font-size: 16px;
   }
 
+  /*............ github section ................ */
+
+
   /*............ Education................ */
   .eductionDetails {
     flex-direction: column;
@@ -923,6 +951,10 @@ form textarea::placeholder {
 
   .Contact-title {
     font-size: 1.2rem !important;
+  }
+
+  #Footer{
+  font-size: 10px !important;
   }
 }
 
@@ -1118,7 +1150,7 @@ form textarea::placeholder {
   }
 
   #Footer {
-    font-size: 6px;
+    font-size: 6px !important;
     font-weight: 900;
   }
 
@@ -1129,7 +1161,7 @@ form textarea::placeholder {
 }
 
 @media screen and (max-width: 390px) {
-  .aboutText{
+  .aboutText {
     font-size: 10px !important;
     text-align: justify !important;
   }

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img from "./pic.png";
@@ -11,9 +11,12 @@ import { HiMail } from "react-icons/hi";
 import PDF from "./Sk_Alijan_Resume.pdf";
 
 const Home = () => {
+
   useEffect(() => {
     AOS.init();
   }, []);
+
+
 
   return (
     <div
@@ -78,6 +81,7 @@ const Home = () => {
       <div id="mypic" data-aos="zoom-in">
         <img src={img} alt="My pic" className="home-img" />
       </div>
+     
     </div>
   );
 };

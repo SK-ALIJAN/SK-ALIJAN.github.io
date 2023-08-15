@@ -121,7 +121,11 @@ const Skills = () => {
         <p>Tech Stack & Tools</p>
       </div>
 
-      <div className="Buttons spacehere" data-aos="fade-right" data-aos-duration="1500">
+      <div
+        className="Buttons spacehere"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <button
           onClick={() => {
             btn("all");
@@ -159,7 +163,11 @@ const Skills = () => {
       <div className="Display">
         {details.map((ele) => {
           return (
-            <div key={ele.name} data-aos="fade-right" className="allSkills skills-card">
+            <div
+              key={ele.name}
+              data-aos="fade-right"
+              className="allSkills skills-card"
+            >
               <img src={ele.img} alt={ele.name} />
               <p>{ele.name}</p>
             </div>
