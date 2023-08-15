@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cabb625.css",
-    "main.js": "/static/js/main.8b8878e9.js",
+    "main.css": "/static/css/main.ca1ef496.css",
+    "main.js": "/static/js/main.429ca7be.js",
     "static/media/Id.png": "/static/media/Id.b99efecef59f3879e7ad.png",
     "static/media/Sk_Alijan_Resume.pdf": "/static/media/Sk_Alijan_Resume.47dde774ea19af5dbc7e.pdf",
     "static/media/pic.png": "/static/media/pic.07f561488498e4d26ca9.png",
@@ -9,11 +9,11 @@
     "static/media/bajkul.png": "/static/media/bajkul.a4e74373dae901dcee65.png",
     "static/media/logo.jpg": "/static/media/logo.cf8c9d2486587d0f89f7.jpg",
     "index.html": "/index.html",
-    "main.5cabb625.css.map": "/static/css/main.5cabb625.css.map",
-    "main.8b8878e9.js.map": "/static/js/main.8b8878e9.js.map"
+    "main.ca1ef496.css.map": "/static/css/main.ca1ef496.css.map",
+    "main.429ca7be.js.map": "/static/js/main.429ca7be.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cabb625.css",
-    "static/js/main.8b8878e9.js"
+    "static/css/main.ca1ef496.css",
+    "static/js/main.429ca7be.js"
   ]
 }
