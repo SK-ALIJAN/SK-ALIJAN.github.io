@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaLocationDot } from "react-icons/fa6";
@@ -12,26 +12,61 @@ import {
 } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
 import { VscPass } from "react-icons/vsc";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   let [show, setShow] = useState({ signal: false, message: "" });
-
+  const form = useRef();
   useEffect(() => {
     AOS.init();
   }, []);
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    setShow((prev) => {
-      return { ...prev, signal: true, message: "Your message has been sent" };
-    });
-    setTimeout(() => {
-      setShow((prev) => {
-        return { ...prev, signal: false, message: "" };
-      });
-      e.target.reset();
-    }, 3000);
+
+    emailjs
+      .sendForm(
+        "service_6okbbp6",
+        "template_jiugz6o",
+        form.current,
+        "RKjlsG2NuRKQfWoVX"
+      )
+      .then(
+        (result) => {
+          setShow((prev) => {
+            return {
+              ...prev,
+              signal: true,
+              message: "Your message has been sent",
+            };
+          });
+
+          setTimeout(() => {
+            setShow((prev) => {
+              return { ...prev, signal: false, message: "" };
+            });
+            e.target.reset();
+          }, 3000);
+        },
+        (error) => {
+          setShow((prev) => {
+            return {
+              ...prev,
+              signal: true,
+              message: "Please use a different contact method",
+            };
+          });
+
+          setTimeout(() => {
+            setShow((prev) => {
+              return { ...prev, signal: false, message: "" };
+            });
+            e.target.reset();
+          }, 3000);
+        }
+      );
   };
+
   return (
     <div id="contact">
       <div
@@ -89,10 +124,16 @@ const Contact = () => {
 
         <div id="form-section">
           <p className="Contact-title">Reach out to connect</p>
-          <form action="" onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email*" required />
+          <form onSubmit={handleSubmit} ref={form}>
+            <input type="text" name="user_name" required placeholder="Name" />
+            <input
+              type="email"
+              name="user_email"
+              required
+              placeholder="Email*"
+            />
             <textarea
+              name="message"
               placeholder="Your Message"
               className="your-message"
               required
@@ -126,8 +167,6 @@ const Contact = () => {
         <span style={{ color: "teal", margin: "5px" }}>Sk Alijan </span>| ©
         Copyright 2023 . All rights reserved
       </p>
-
-      
     </div>
   );
 };
