@@ -511,16 +511,19 @@ button:focus::after {
   align-items: center;
   margin-top: 20px;
 }
-#statsCard{
-display: flex;
-justify-content: center;
-margin-top: 20px;
+
+#statsCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-#statsCard>div img{
-width: 100%;
+
+#statsCard>div img {
+  width: 100%;
 }
-#github-top-langs{
-margin-right: 20px;
+
+#github-top-langs {
+  margin-right: 20px;
 }
 
 
@@ -953,8 +956,8 @@ form textarea::placeholder {
     font-size: 1.2rem !important;
   }
 
-  #Footer{
-  font-size: 10px !important;
+  #Footer {
+    font-size: 10px !important;
   }
 }
 
@@ -1064,6 +1067,16 @@ form textarea::placeholder {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  /*............ github section................ */
+
+  #statsCard {
+    flex-direction: column;
+  }
+
+  #statsCard>div {
+    width: 100%;
+  }
+
   /*............ Education................ */
   .eductionDetails {
     margin-top: 20px;
@@ -1158,12 +1171,16 @@ form textarea::placeholder {
     width: 2rem;
     height: 2rem;
   }
+
 }
 
 @media screen and (max-width: 390px) {
   .aboutText {
     font-size: 10px !important;
     text-align: justify !important;
+    border: 2px solid red;
+    position: relative;
+    left: 15px;
   }
 
   #ProjectShowCase,
