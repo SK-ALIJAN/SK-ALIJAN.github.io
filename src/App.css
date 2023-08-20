@@ -1174,11 +1174,16 @@ form textarea::placeholder {
 }
 
 @media screen and (max-width: 390px) {
+  #about {
+    padding: 0;
+  }
+
   .about {
     margin: auto;
   }
 
-  .aboutText {
+  .about>p {
+    margin: auto;
     font-size: 10px !important;
     text-align: justify !important;
   }
