@@ -1176,17 +1176,18 @@ form textarea::placeholder {
 @media screen and (max-width: 390px) {
   #about {
     padding: 0;
+    width: 100vw;
   }
 
-  .about {
-    margin: auto;
+  #myDetails {
+    display: grid;
+    place-content: center;
   }
 
-  .about>p {
-    margin: auto;
-    font-size: 10px !important;
-    text-align: justify !important;
+  .aboutText {
+    font-size: 0.7rem !important;
   }
+
 
   #ProjectShowCase,
   #ProjectShowCase .AllProjects {
