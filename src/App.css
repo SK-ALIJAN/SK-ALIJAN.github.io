@@ -30,7 +30,6 @@ p {
   align-items: center;
   left: 50%;
   transform: translate(-50%);
-  /* From https://css.glass */
   background: rgba(0, 0, 0, 0.18);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -102,7 +101,7 @@ p {
 }
 
 .wrapper .static-txt {
-  color: #fff;
+  color: white;
   font-size: 50px;
   font-weight: 400;
 }
@@ -1175,12 +1174,13 @@ form textarea::placeholder {
 }
 
 @media screen and (max-width: 390px) {
+  .about {
+    margin: auto;
+  }
+
   .aboutText {
     font-size: 10px !important;
     text-align: justify !important;
-    border: 2px solid red;
-    position: relative;
-    left: 15px;
   }
 
   #ProjectShowCase,

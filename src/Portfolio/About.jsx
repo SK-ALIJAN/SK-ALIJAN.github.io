@@ -10,6 +10,7 @@ const About = () => {
     AOS.init();
   }, []);
 
+
   return (
     <div id="about">
       <div
