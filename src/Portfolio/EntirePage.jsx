@@ -16,7 +16,7 @@ const EntirePage = () => {
       <About />
       <Skills />
       <Projects />
-      {/* <GithubStat/> */}
+      <GithubStat />
       <Education />
       <Contact />
     </>

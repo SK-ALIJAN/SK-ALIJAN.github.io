@@ -108,7 +108,7 @@ const Skills = () => {
   let btn = (click) => {
     setState(click);
   };
-  console.log(details);
+
   return (
     <div id="skills">
       <div
