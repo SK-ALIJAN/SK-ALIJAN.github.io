@@ -23,6 +23,24 @@ let data = [
     demo: "https://my-trip-wine.vercel.app/",
     github: "https://github.com/SK-ALIJAN/Mytrip",
   },
+
+  {
+    name: "Weather app",
+    cate: "react",
+    details:
+      "Explore the world's weather with real-time Weather app, See current weather and upcoming forecasts for thousands of cities worldwide.",
+    MadeBy: "This is individual project made in 5 days",
+    tech: "React, Redux, Styled-components, Weather api",
+    image: [
+      "https://github.com/SK-ALIJAN/weather-app/assets/106768235/f09f4d89-4d39-4c40-9b96-c756a1904e33",
+      "https://github.com/SK-ALIJAN/weather-app/assets/106768235/97d912a5-58fa-44a4-8238-4cbfcddeb8e7",
+      "https://github.com/SK-ALIJAN/weather-app/assets/106768235/81c9c4a4-5ddf-4f3b-942c-e7ae93d3a760",
+      "https://github.com/SK-ALIJAN/weather-app/assets/106768235/6b48e5c8-dc88-48b1-b0ad-dc944994bc7d",
+      "https://github.com/SK-ALIJAN/weather-app/assets/106768235/9f82470e-8830-479e-a6e6-6ef797e3fca9",
+    ],
+    demo: "https://alijan-weather-app.vercel.app/)",
+    github: "https://github.com/SK-ALIJAN/weather-app",
+  },
   {
     name: "Blueberry.com",
     cate: "HTML",
