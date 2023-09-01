@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8f24348.css",
-    "main.js": "/static/js/main.17acdde1.js",
+    "main.js": "/static/js/main.d148e3c3.js",
     "static/media/Id.png": "/static/media/Id.b99efecef59f3879e7ad.png",
     "static/media/Sk_Alijan_Resume.pdf": "/static/media/Sk_Alijan_Resume.47dde774ea19af5dbc7e.pdf",
     "static/media/pic.png": "/static/media/pic.07f561488498e4d26ca9.png",
@@ -10,10 +10,10 @@
     "static/media/logo.jpg": "/static/media/logo.cf8c9d2486587d0f89f7.jpg",
     "index.html": "/index.html",
     "main.d8f24348.css.map": "/static/css/main.d8f24348.css.map",
-    "main.17acdde1.js.map": "/static/js/main.17acdde1.js.map"
+    "main.d148e3c3.js.map": "/static/js/main.d148e3c3.js.map"
   },
   "entrypoints": [
     "static/css/main.d8f24348.css",
-    "static/js/main.17acdde1.js"
+    "static/js/main.d148e3c3.js"
   ]
 }
