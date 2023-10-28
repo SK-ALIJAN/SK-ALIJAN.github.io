@@ -181,7 +181,7 @@ p {
 }
 
 .allIcons {
-  width: 7.2rem;
+  width: 7.5rem;
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
@@ -189,6 +189,7 @@ p {
 
 .allIcons a {
   color: rgba(0, 0, 0, 0.542);
+  margin-right: 15px;
 }
 
 .allIcons a>* {
@@ -753,13 +754,14 @@ form textarea::placeholder {
 }
 
 #Footer {
-  margin-top: 50px;
-  margin-bottom: 60px;
+  margin-top: 78px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 14px;
+
   font-weight: 900;
 }
 

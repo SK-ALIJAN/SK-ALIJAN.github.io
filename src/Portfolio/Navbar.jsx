@@ -3,6 +3,7 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaHeartPulse } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { useParams } from "react-router-dom";
 
 const Navbar = () => {
   let [actice, setActive] = useState("Home");

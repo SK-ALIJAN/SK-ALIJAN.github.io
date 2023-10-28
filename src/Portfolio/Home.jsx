@@ -10,13 +10,12 @@ import {
 import { HiMail } from "react-icons/hi";
 import PDF from "./Sk_Alijan_Resume.pdf";
 
+
 const Home = () => {
 
   useEffect(() => {
     AOS.init();
   }, []);
-
-
 
   return (
     <div
@@ -51,7 +50,7 @@ const Home = () => {
         <a
           href={PDF}
           className="resumes"
-          download
+          // download
           onClick={() => {
             window.location.href =
               "https://drive.google.com/file/d/19h3vZHBl1SI3pwTEGEoVP1VADG1hr8kH/view?usp=sharing";
@@ -81,7 +80,6 @@ const Home = () => {
       <div id="mypic" data-aos="zoom-in">
         <img src={img} alt="My pic" className="home-img" />
       </div>
-     
     </div>
   );
 };
