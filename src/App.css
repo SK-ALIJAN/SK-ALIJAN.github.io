@@ -754,14 +754,11 @@ form textarea::placeholder {
 }
 
 #Footer {
-  margin-top: 78px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   letter-spacing: 1px;
   font-size: 14px;
-
   font-weight: 900;
 }
 
