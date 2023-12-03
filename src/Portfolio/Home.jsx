@@ -10,9 +10,7 @@ import {
 import { HiMail } from "react-icons/hi";
 import PDF from "./Sk_Alijan_Resume.pdf";
 
-
 const Home = () => {
-
   useEffect(() => {
     AOS.init();
   }, []);
@@ -78,7 +76,7 @@ const Home = () => {
         </div>
       </div>
       <div id="mypic" data-aos="zoom-in">
-        <img src={img} alt="My pic" className="home-img" />
+        <img src={img} alt="My pic" className="home-img" loading="lazy" />
       </div>
     </div>
   );

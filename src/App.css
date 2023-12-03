@@ -731,27 +731,9 @@ form textarea::placeholder {
   color: white;
   letter-spacing: 2px;
   cursor: pointer;
+  padding: 0 !important;
 }
 
-#MessageSent {
-  position: fixed;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  width: max-content;
-  justify-content: space-between;
-  align-items: center;
-  background-color: teal;
-  color: white;
-  padding: 15px;
-  border-radius: 6px;
-}
-
-#MessageSent p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
 #Footer {
   display: flex;
@@ -942,6 +924,10 @@ form textarea::placeholder {
 
   #Footer {
     font-size: 10px !important;
+  }
+
+  #form-section {
+    padding-bottom: 2rem;
   }
 }
 
@@ -1135,6 +1121,7 @@ form textarea::placeholder {
     background-color: rgba(0, 0, 0, 0.495);
     padding: 20px;
     border-radius: 11px;
+    padding-bottom: 2rem !important;
   }
 
   #form-section form input::placeholder,

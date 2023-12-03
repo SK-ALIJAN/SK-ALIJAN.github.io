@@ -4,18 +4,13 @@ import "aos/dist/aos.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiFillCloseCircle,
-  AiFillHeart,
-} from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { HiMail } from "react-icons/hi";
-import { VscPass } from "react-icons/vsc";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  let [show, setShow] = useState({ signal: false, message: "" });
   const form = useRef();
   useEffect(() => {
     AOS.init();
@@ -33,36 +28,12 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          setShow((prev) => {
-            return {
-              ...prev,
-              signal: true,
-              message: "Your message has been sent",
-            };
-          });
-
-          setTimeout(() => {
-            setShow((prev) => {
-              return { ...prev, signal: false, message: "" };
-            });
-            e.target.reset();
-          }, 3000);
+          toast.success("Your message has been sent!");
+          e.target.reset();
         },
         (error) => {
-          setShow((prev) => {
-            return {
-              ...prev,
-              signal: true,
-              message: "Please use a different contact method",
-            };
-          });
-
-          setTimeout(() => {
-            setShow((prev) => {
-              return { ...prev, signal: false, message: "" };
-            });
-            e.target.reset();
-          }, 3000);
+          toast.warn("Something wrong! please use a different contact method");
+          e.target.reset();
         }
       );
   };
@@ -142,25 +113,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      {show.signal ? (
-        <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-          id="MessageSent"
-        >
-          <VscPass />
-          <p>{show.message}</p>
-          <AiFillCloseCircle
-            onClick={() => {
-              setShow((prev) => {
-                return { ...prev, signal: false, message: "" };
-              });
-            }}
-          />
-        </div>
-      ) : (
-        ""
-      )}
+
+      <ToastContainer />
 
       <p id="Footer">
         Designed and Developed by
