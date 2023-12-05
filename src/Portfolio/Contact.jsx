@@ -9,6 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { HiMail } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
+import { ErrorAudio, SuccessAudio } from "./ClickAudio";
 
 const Contact = () => {
   const form = useRef();
@@ -21,7 +22,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_6okbbp6",
+        "service_6okbbp7",
         "template_jiugz6o",
         form.current,
         "RKjlsG2NuRKQfWoVX"
@@ -29,10 +30,12 @@ const Contact = () => {
       .then(
         (result) => {
           toast.success("Your message has been sent!");
+          SuccessAudio();
           e.target.reset();
         },
         (error) => {
           toast.warn("Something wrong! please use a different contact method");
+          ErrorAudio();
           e.target.reset();
         }
       );

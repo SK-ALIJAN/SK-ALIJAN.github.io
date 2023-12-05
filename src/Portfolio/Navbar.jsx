@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaHeartPulse } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { useParams } from "react-router-dom";
+import { ClickAudio } from "./ClickAudio";
 
 const Navbar = () => {
   let [actice, setActive] = useState("Home");
@@ -14,6 +14,7 @@ const Navbar = () => {
         href="#home"
         onClick={() => {
           setActive("Home");
+          ClickAudio();
         }}
         className={actice === "Home" ? "active" : ""}
       >
@@ -24,6 +25,7 @@ const Navbar = () => {
         href="#about"
         onClick={() => {
           setActive("About");
+          ClickAudio();
         }}
         className={actice === "About" ? "active" : ""}
       >
@@ -34,6 +36,7 @@ const Navbar = () => {
         href="#skills"
         onClick={() => {
           setActive("Skills");
+          ClickAudio();
         }}
         className={actice === "Skills" ? "active" : ""}
       >
@@ -44,6 +47,7 @@ const Navbar = () => {
         href="#projects"
         onClick={() => {
           setActive("Projects");
+          ClickAudio();
         }}
         className={actice === "Projects" ? "active" : ""}
       >
@@ -54,6 +58,7 @@ const Navbar = () => {
         href="#contact"
         onClick={() => {
           setActive("Contact");
+          ClickAudio();
         }}
         className={actice === "Contact" ? "active" : ""}
       >
