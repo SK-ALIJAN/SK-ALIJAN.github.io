@@ -9,7 +9,7 @@ const App = () => {
   useEffect(() => {
     let id = setTimeout(() => {
       setLoading(false);
-    }, 3500);
+    }, 4000);
 
     return () => {
       clearTimeout(id);
